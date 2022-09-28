@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@keyframes header-animation {
+    from {margin-left: 100%;}
+    to {margin-left: 0%;}
+}
+
+#animation {
+    animation-name: header-animation;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+#main-text {
+    width: 599px;
+    height: 148px;
+    left: 134px;
+    top: 285px;
+
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+    color: #FFFFFF; 
+    background-color: #F78CB6;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+footer {
+    background-image: url(assets/images/background.png);
+    background-repeat: no-repeat; 
+    height: 100vh
+}
+
+section h2 {
+    color: #F78CB6;
+}
+
+a:hover {
+    color: #F78CB6;
+}
+
+button:hover {
+    color: #F78CB6;
+    background-color: #AAAAAB;
+}
+
+nav:first-child {
+    color: #56597A;
+}
+
+a img:hover {
+    width: 5vh;
+}
+
+.grey-text {
+    color: #919299;
+}
+
+.dark-grey-text {
+    color: #56597A;
+}
+
+.light-grey-text {
+    color: #AAAAAB;
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.whitish-background {
+    background-color: #FFF1F9;
+}
+
+.pink-background {
+    background-color: #F78CB6;
+}
