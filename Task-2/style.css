@@ -1,0 +1,51 @@
+header {
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: larger;
+    height: 10vh;
+    text-align: center;
+}
+
+p {
+    
+}
+
+
+
+/* main {
+    background-color: lightyellow;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: larger;
+    float: left;
+    width: 70%;
+    height: 75vh;
+    display: flex;
+}
+
+aside {
+    background-color: lightgreen;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    float: right;
+    width: 30%;
+    height: 75vh;
+}
+
+
+
+footer {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: larger;
+    height: 15vh;
+}
+
+footer section {
+    background-color: white;
+} */
