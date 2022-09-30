@@ -1,51 +1,96 @@
+/* ВСЕ НАЗВАНИЯ НА СТРАНИЦЕ */
+
+* {
+    font-weight: bold;
+    font-size: large;
+}
+
+/* ШАПКА СТРАНИЦЫ */
+
 header {
-    background-color: darkgray;
-    font-weight: bold;
-    font-size: larger;
+    display: flex;
     height: 10vh;
-    text-align: center;
+
+    background-color: lightgray;
 }
 
-p {
-    
+header p {
+    margin: auto;
 }
 
+/* ОСНОВНАЯ ЧАСТЬ */
 
-
-/* main {
-    background-color: lightyellow;
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: larger;
+main {
+    display: flex;
     float: left;
+    flex-direction: column;
+    align-items: center;
     width: 70%;
     height: 75vh;
-    display: flex;
+
+    background-color: yellow;
 }
+
+main p {
+    height: 60%;
+}
+
+main div {
+    height: 40%;
+}
+
+main div section {
+    background-color: lightsalmon;
+}
+
+#section-1,
+#section-2 {
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 10px;
+}
+
+#section-1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#section-2 {
+    float: right;
+    margin-left: 10px;
+}
+
+#section-3 {
+    clear: both;
+    padding: 10px 100px 10px 100px;
+    text-align: center;
+}
+
+/* БОКОВАЯ ОБЛАСТЬ */
 
 aside {
-    background-color: lightgreen;
-    padding-top: 20px;
-    font-weight: bold;
-    font-size: larger;
-    text-align: center;
+    display: flex;
     float: right;
+    justify-content: center;
     width: 30%;
     height: 75vh;
+
+    background-color: lightgreen;
 }
 
-
+/* ФУТЕР */
 
 footer {
     clear: both;
     display: flex;
     justify-content: space-around;
-    background-color: darkgray;
-    font-weight: bold;
-    font-size: larger;
+    align-items: center;
     height: 15vh;
+
+    background-color: lightgray;
 }
 
 footer section {
+    padding: 20px 10px 20px 10px;
+
     background-color: white;
-} */
+}
