@@ -1,32 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
 /* ШАПКА */
-        
-/* header .icon {
+
+header .icon {
     float: left;
-    width: 50%;
-    min-height: fit-content;
+    height: 100px;
+    width: 10%;
 }
 
 #menu {
-    width: 50%;
     float: right;
+    width: 50%;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+/* О ЧЁМ КОМПАНИЯ? */
+
 #main-section {
     clear: both;
-} */
+}
 
-        /* СЕКЦИЯ 1
-        СЕКЦИЯ 2
-        СЕКЦИЯ 3
-        СЕКЦИЯ 4
-        СЕКЦИЯ 5
-        СЕКЦИЯ 6
-        ФУТЕР */
+
+
 
 #main-text {
     width: 599px;
