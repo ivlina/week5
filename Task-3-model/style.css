@@ -23,6 +23,76 @@ header .icon {
     clear: both;
 }
 
+#creative-agency-1 {
+    float: left;
+    width: 48%;
+    margin-left: 5px;
+}
+
+#creative-agency-2 {
+    float: right;
+    width: 50%;
+}
+
+#section-2 {
+    clear: both;
+}
+
+/* УСЛУГИ КОМПАНИИ */
+
+#section-2 h2 {
+    width: 100%;
+    text-align: center;
+}
+
+#section-2 h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+#section-2 div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-2 div article {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+#learn-more-button {
+    width: 50%;
+    margin: auto;
+}
+
+/* ДИЗАЙН */
+
+section #section-3-pic {
+    float: left;
+}
+
+section #section-3-text {
+    float: right;
+}
+
+#section-4 {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
