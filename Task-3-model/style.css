@@ -71,30 +71,77 @@ header .icon {
 
 /* ДИЗАЙН */
 
-section #section-3-pic {
+#section-3 {
+    margin-top: 30px;
+}
+
+#section-3-pic {
     float: left;
+    width: 48%;
+    margin-left: 5px;
 }
 
-section #section-3-text {
+#section-3-text {
     float: right;
+    width: 50%;
+    margin-right: 5px;
 }
 
-#section-4 {
+#pic-brands {
     clear: both;
+    width: 70%;
+    margin-left: 15%;
 }
 
+/* ПОЧТА */
 
+#section-6 {
+    height: 200px;
+    width: 100%;
+}
 
+#subscribe-section {
+    text-align: center;
+    padding-top: 40px;
+}
 
+#subscribe-pic {
+    position: absolute;
+    left: 20px;
+    height: 200px;
+}
 
+/* ФУТЕР */
 
+footer {
+    height: 300px;
 
+}
 
+#footer-info {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+}
 
+#resources,
+#about,
+#helpful-link {
+    width: 33%;
+}
 
+#footer-navigation {
+    padding-top: 70px;
+    float: right;
+    width: 30%;
+    display: flex;
+}
 
-
-
+#rights {
+    border: 1px solid pink;
+    clear: both;
+    text-align: center;
+}
 
 #main-text {
     width: 599px;
@@ -126,7 +173,6 @@ ul {
 footer {
     background-image: url(assets/images/background.png);
     background-repeat: no-repeat; 
-    height: 100vh
 }
 
 section h2 {
